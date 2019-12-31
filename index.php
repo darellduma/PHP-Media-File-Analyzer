@@ -22,6 +22,9 @@
 
 if(isset($_POST['submit'])){
     $music_file = $_FILES['music_file'];
+    if(!file_exists('/uploads')){
+        mkdir('uploads');
+    }
     $target_dir = "uploads/";
     $target_file = $target_dir . basename($music_file["name"]);
     move_uploaded_file($music_file["tmp_name"], $target_file);
