@@ -22,7 +22,7 @@
 
 if(isset($_POST['submit'])){
     $music_file = $_FILES['music_file'];
-    if(!file_exists('/uploads')){
+    if(!file_exists('uploads')){
         mkdir('uploads');
     }
     $target_dir = "uploads/";
