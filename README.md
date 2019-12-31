@@ -5,7 +5,7 @@ Media file analyzer made in PHP
 Download this repo to your server.
 
 # What does it do?
-It uploads your media files to the '/uploads/' (create one if it doesn't exist) folder and analyzes it using the 'getID3' class from the getID3 library. 
+It uploads your media files to the '/uploads/' folder and analyzes it using the 'getID3' class from the getID3 library. 
 
 # What is the filesize limit?
 Depends on your server. Just adjust the config in your 'php.ini' file.
