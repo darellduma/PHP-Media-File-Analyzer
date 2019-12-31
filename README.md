@@ -12,3 +12,6 @@ Depends on your server. Just adjust the config in your 'php.ini' file.
 
 # Does it display the whole info?
 No. I selected the most basic info of the media file as default. You can display the full info of a media file by going to the index.php file and add print_r($music_file_info); anywhere on the file (at your own risk).
+
+# Libraies Used
+http://getid3.sourceforge.net/
